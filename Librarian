@@ -1,0 +1,33 @@
+//
+
+public class Librarian {
+	private String name;
+	private int ID;
+	
+	//constructor
+	public Librarian() {
+		
+	}
+	
+	//get/set
+	public String getName() {
+		return name;
+	}
+	
+	public int getID () {
+		return ID;
+	}
+	
+	public void setName(String n) {
+		name = n;
+	}
+	
+	public void setID(int i) {
+		ID = i;
+	}
+	
+	//toString
+	public String toString() {
+		return "Name: " + name + "\nID: " + ID;
+	}
+}

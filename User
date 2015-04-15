@@ -5,8 +5,9 @@ public class User {
 	private int ID;
 	
 	//constructor
-	public User () {
-		
+	public User (String name, int i) {
+		name = n;
+		ID = i;
 	}
 	
 	//get/set

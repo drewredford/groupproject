@@ -5,8 +5,9 @@ public class Librarian {
 	private int ID;
 	
 	//constructor
-	public Librarian() {
-		
+	public Librarian(String n, int i) {
+		name = n;
+		ID = i;
 	}
 	
 	//get/set
